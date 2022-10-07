@@ -1,20 +1,20 @@
-module github.com/rschmied/terraform-provider-cml2/m/v2
+module github.com/rschmied/terraform-provider-cml2
 
 go 1.18
 
 require (
-	github.com/Masterminds/semver/v3 v3.1.1
 	github.com/hashicorp/terraform-plugin-docs v0.8.0
-	github.com/hashicorp/terraform-plugin-framework v0.14.0
+	github.com/hashicorp/terraform-plugin-framework v0.15.0
 	github.com/hashicorp/terraform-plugin-go v0.14.0
 	github.com/hashicorp/terraform-plugin-log v0.7.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.23.0
-	github.com/stretchr/testify v1.7.2
-	golang.org/x/sync v0.0.0-20220929204114-8fcdb60fdcc0
+	github.com/rschmied/gocmlclient v0.0.2
+	github.com/stretchr/testify v1.8.0
 )
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
+	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.0 // indirect
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
@@ -62,13 +62,19 @@ require (
 	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/zclconf/go-cty v1.11.0 // indirect
-	golang.org/x/crypto v0.0.0-20220517005047-85d78b3ac167 // indirect
-	golang.org/x/net v0.0.0-20221004154528-8021a29435af // indirect
-	golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220930163606-c98284e70a91 // indirect
-	google.golang.org/grpc v1.50.0 // indirect
+	google.golang.org/genproto v0.0.0-20221025140454-527a21cfbd71 // indirect
+	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// replace (
+// 	github.com/rschmied/gocmlclient => /home/rschmied/Projects/gocmlclient
+// 	github.com/rschmied/mockresponder => /home/rschmied/Projects/mockresponder
+// )
