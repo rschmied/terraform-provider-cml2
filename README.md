@@ -1,5 +1,13 @@
 # Terraform Provider for Cisco CML2
 
+> [!WARNING]
+> **This repository is archived and no longer maintained.**
+>
+> Development continues in the official Cisco DevNet repository:
+> <https://github.com/CiscoDevNet/terraform-provider-cml2>
+>
+> Please file issues and pull requests there.
+
 [![CodeQL](https://github.com/rschmied/terraform-provider-cml2/actions/workflows/codeql-analysis.yml/badge.svg?branch=dev)](https://github.com/rschmied/terraform-provider-cml2/actions/workflows/codeql-analysis.yml)
 
 _This template repository is built on the [Terraform Plugin Framework](https://github.com/hashicorp/terraform-plugin-framework). The template repository built on the [Terraform Plugin SDK](https://github.com/hashicorp/terraform-plugin-sdk) can be found at [terraform-provider-scaffolding](https://github.com/hashicorp/terraform-provider-scaffolding). See [Which SDK Should I Use?](https://www.terraform.io/docs/plugin/which-sdk.html) in the Terraform documentation for additional information._
